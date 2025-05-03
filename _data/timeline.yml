@@ -17,45 +17,53 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Web-AR.Studio
+  title-url: https://web-ar.studio/
+  date: Nov 2021 - Feb 2025
+  subtitle: Computer Vision Developer
   tags:
-    - tag: React
+    - tag: C/C++
     - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: WebAssembly
+    - tag: OpenCV
+    - tag: WebGL
+    - tag: OpenGL ES
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
+- title: Konya Technical University
+  title-url: https://www.ktun.edu.tr/
+  date: 2023 - Present
   subtitle: M.Sc. Computer Science
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: ERA Tech Company
+  title-url: https://www.linkedin.com/company/106579659
+  date: Jul 2018 - Oct 2022
+  subtitle: Machine Learning Engineer
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: Python
+    - tag: Tensorflow
+    - tag: PyTorch
+    - tag: Pandas
+    - tag: Numpy
+    - tag: Docker
+    - tag: FastAPI
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
+- title: UZAKTA Bilişim ve Tasarım
+  title-url: https://www.linkedin.com/company/uzakta-bili%C5%9Fim-ve-tasar%C4%B1m-ltd-%C5%9Fti/
+  date: Feb 2020 - Oct 2021
+  subtitle: Machine Learning Engineer
+  tags:
+    - tag: Python
+    - tag: CPython
+    - tag: OpenCV
+    - tag: Tensorflow
+    - tag: Nvidia Jetson
+  timeline-side: right
+
+- title: Yildiz Technical University
+  title-url: https://www.yildiz.edu.tr/
+  date: 2014 - 2021
   subtitle: B.A. Computer Science
   timeline-side: left
