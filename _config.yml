@@ -87,7 +87,7 @@ contact_description: If you wish to get in touch, you may use Telegram, Email or
 # GITHUB-METADATA
 # Set this to your organization repository
 # > e.g. <organization>/<repository>.github.io
-repository: bigalex95-portfolio/bigalex95.github.io
+repository: bigalex95-portfolio/bigalex95-portfolio
 
 projects:
   sort_by: pushed
