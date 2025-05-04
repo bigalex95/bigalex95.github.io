@@ -70,7 +70,7 @@ projects_title: Projects
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
-show_os_projects: true
+show_os_projects: false
 # os_projects_title: The will be displayed as the title of your open source projects
 os_projects_title: Open Source Projects
 
@@ -92,7 +92,7 @@ projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
-  sort_by: pushed
+  sort_by: stars
   exclude:
     # archived:
     # > setting this to true, will exclude archived repositories
