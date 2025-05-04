@@ -5,32 +5,34 @@
 # - name: Git
 #   weight: 5
 
+- name: Pandas
+  weight: 5
+
+- name: NumPy
+  weight: 5
+
+- name: Docker
+  weight: 4
+
+- name: Kubernetes
+  weight: 3
+
+- name: FastAPI
+  weight: 4
+
+- name: MLflow
+  weight: 3
+
 - name: Git
   weight: 5
 
-- name: Bash
-  weight: 3
-
-- name: Scrum
-  weight: 3
-
-- name: Travis CI
-  weight: 1
-
-- name: Jenkins
-  weight: 1
-
-- name: Chrome DevTools
-  weight: 2
-
-- name: npm
-  weight: 2
-
-- name: gulp
-  weight: 4
+- name: Jupyter
+  weight: 5
 
 - name: VS Code
-  weight: 3
-
-- name: Postman
   weight: 4
+
+- name: Streamlit
+  weight: 4
+# - name: AWS SageMaker
+#   weight: 3

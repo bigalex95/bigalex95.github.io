@@ -9,20 +9,50 @@
   <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
+  <input type="radio" id="visualization" name="filter" />
+  <label class="filter-button neumorphism-button" for="visualization">Visualizations</label>
 
   {% for language in site.data.skills-languages %}
-    <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">
-      {{language.name}}
-    </div>
+  <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="{{ '/assets/img/ml-icons.svg#' | append: language.name | downcase | replace: ' ', '-' | prepend: site.baseurl }}">
+      </use>
+    </svg>
+    <span class="skill-name">{{language.name}}</span>
+  </div>
   {% endfor %}
+
   {% for framework in site.data.skills-frameworks %}
-    <div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in">
-      {{framework.name}}
-    </div>
+  <div skill-type="framework" skill-weight="{{framework.weight}}" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="{{ '/assets/img/ml-icons.svg#' | append: framework.name | downcase | replace: ' ', '-' | prepend: site.baseurl }}">
+      </use>
+    </svg>
+    <span class="skill-name">{{framework.name}}</span>
+  </div>
   {% endfor %}
+
   {% for tool in site.data.skills-tools %}
-    <div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in">
-      {{tool.name}}
-    </div>
+  <div skill-type="tool" skill-weight="{{tool.weight}}" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="{{ '/assets/img/ml-icons.svg#' | append: tool.name | downcase | replace: ' ', '-' | prepend: site.baseurl }}">
+      </use>
+    </svg>
+    <span class="skill-name">{{tool.name}}</span>
+  </div>
+  {% endfor %}
+
+  {% for visualization in site.data.skills-visualizations %}
+  <div skill-type="visualization" skill-weight="{{visualization.weight}}" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="{{ '/assets/img/ml-icons.svg#' | append: visualization.name | downcase | replace: ' ', '-' | prepend: site.baseurl }}">
+      </use>
+    </svg>
+    <span class="skill-name">{{visualization.name}}</span>
+  </div>
   {% endfor %}
 </div>

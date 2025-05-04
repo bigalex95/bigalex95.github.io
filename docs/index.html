@@ -9,16 +9,27 @@
   <title>bigalex95</title>
   <meta name="description" content="Personal website powered by Jekyll">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href=" /assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href=" /assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href=" /assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href=" /assets/favicon/site.webmanifest">
 
-  <link rel="stylesheet" href="/assets/css/main.min.css">
-  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+  <link rel="stylesheet" href=" /assets/css/main.min.css">
+  <link rel="stylesheet" href=" /assets/css/vendors.min.css">
 
-  <script src="/assets/js/vendors.min.js"></script>
-  <script src="/assets/js/app.min.js"></script>
+  <script src=" /assets/js/vendors.min.js"></script>
+  <script src=" /assets/js/app.min.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ENYFX6Q7GX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ENYFX6Q7GX');
+  </script>
+
 </head>
 
 <body>
@@ -114,15 +125,15 @@
 </div>
   <div class="layout">
     
-      <section class="card neumorphism-card-big">
-        <h1 class="title">About Me</h1>
+    <section class="card neumorphism-card-big">
+      <h1 class="title">About Me</h1>
 <p class="description" data-aos="fade-down">As an Machine Learning and Computer Vision Engineer, I am passionate about developing innovative solutions that integrate advanced technologies. My expertise lies in designing and optimizing ML models, implementing CV algorithms, and deploying scalable applications.</p>
 
-      </section>
+    </section>
     
     
-      <section class="card neumorphism-card-big">
-        <h1 class="title">Skills</h1>
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Skills</h1>
 
 <div id="skills">
   <input type="radio" id="all" name="filter" checked />
@@ -133,141 +144,247 @@
   <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
   <input type="radio" id="tool" name="filter" />
   <label class="filter-button neumorphism-button" for="tool">Tools</label>
+  <input type="radio" id="visualization" name="filter" />
+  <label class="filter-button neumorphism-button" for="visualization">Visualizations</label>
 
   
-    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
-      TypeScript
-    </div>
+  <div skill-type="language" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#python">
+      </use>
+    </svg>
+    <span class="skill-name">Python</span>
+  </div>
   
-    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
-      JavaScript
-    </div>
+  <div skill-type="language" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#typescript">
+      </use>
+    </svg>
+    <span class="skill-name">TypeScript</span>
+  </div>
   
-    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
-      Python
-    </div>
+  <div skill-type="language" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#javascript">
+      </use>
+    </svg>
+    <span class="skill-name">JavaScript</span>
+  </div>
   
-    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
-      HTML5
-    </div>
+  <div skill-type="language" skill-weight="3" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#c++">
+      </use>
+    </svg>
+    <span class="skill-name">C++</span>
+  </div>
   
-    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-      CSS3
-    </div>
+  <div skill-type="language" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#sql">
+      </use>
+    </svg>
+    <span class="skill-name">SQL</span>
+  </div>
   
-    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
-      SASS
-    </div>
+
   
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Java
-    </div>
+  <div skill-type="framework" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#tensorflow">
+      </use>
+    </svg>
+    <span class="skill-name">TensorFlow</span>
+  </div>
   
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Dart
-    </div>
+  <div skill-type="framework" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#pytorch">
+      </use>
+    </svg>
+    <span class="skill-name">PyTorch</span>
+  </div>
   
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Swift
-    </div>
+  <div skill-type="framework" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#scikit-learn">
+      </use>
+    </svg>
+    <span class="skill-name">Scikit-learn</span>
+  </div>
   
-    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
-      Kotlin
-    </div>
+  <div skill-type="framework" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#hugging-face">
+      </use>
+    </svg>
+    <span class="skill-name">Hugging Face</span>
+  </div>
   
-    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
-      C++
-    </div>
+  <div skill-type="framework" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#opencv">
+      </use>
+    </svg>
+    <span class="skill-name">OpenCV</span>
+  </div>
   
-    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
-      Ruby
-    </div>
+  <div skill-type="framework" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#xgboost">
+      </use>
+    </svg>
+    <span class="skill-name">XGBoost</span>
+  </div>
   
+  <div skill-type="framework" skill-weight="3" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#langchain">
+      </use>
+    </svg>
+    <span class="skill-name">LangChain</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
-      Angular
-    </div>
+
   
-    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-      AngularJS
-    </div>
+  <div skill-type="tool" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#pandas">
+      </use>
+    </svg>
+    <span class="skill-name">Pandas</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
-      React
-    </div>
+  <div skill-type="tool" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#numpy">
+      </use>
+    </svg>
+    <span class="skill-name">NumPy</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
-      Node
-    </div>
+  <div skill-type="tool" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#docker">
+      </use>
+    </svg>
+    <span class="skill-name">Docker</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
-      Flutter
-    </div>
+  <div skill-type="tool" skill-weight="3" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#kubernetes">
+      </use>
+    </svg>
+    <span class="skill-name">Kubernetes</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
-      Express
-    </div>
+  <div skill-type="tool" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#fastapi">
+      </use>
+    </svg>
+    <span class="skill-name">FastAPI</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
-      Django
-    </div>
+  <div skill-type="tool" skill-weight="3" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#mlflow">
+      </use>
+    </svg>
+    <span class="skill-name">MLflow</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
-      Spring
-    </div>
+  <div skill-type="tool" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#git">
+      </use>
+    </svg>
+    <span class="skill-name">Git</span>
+  </div>
   
-    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
-      Rails
-    </div>
+  <div skill-type="tool" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#jupyter">
+      </use>
+    </svg>
+    <span class="skill-name">Jupyter</span>
+  </div>
   
+  <div skill-type="tool" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#vs-code">
+      </use>
+    </svg>
+    <span class="skill-name">VS Code</span>
+  </div>
   
-    <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
-      Git
-    </div>
+  <div skill-type="tool" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#streamlit">
+      </use>
+    </svg>
+    <span class="skill-name">Streamlit</span>
+  </div>
   
-    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-      Bash
-    </div>
+
   
-    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-      Scrum
-    </div>
+  <div skill-type="visualization" skill-weight="5" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#matplotlib">
+      </use>
+    </svg>
+    <span class="skill-name">Matplotlib</span>
+  </div>
   
-    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
-      Travis CI
-    </div>
+  <div skill-type="visualization" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#seaborn">
+      </use>
+    </svg>
+    <span class="skill-name">Seaborn</span>
+  </div>
   
-    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
-      Jenkins
-    </div>
-  
-    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
-      Chrome DevTools
-    </div>
-  
-    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
-      npm
-    </div>
-  
-    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
-      gulp
-    </div>
-  
-    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
-      VS Code
-    </div>
-  
-    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
-      Postman
-    </div>
+  <div skill-type="visualization" skill-weight="4" data-aos="zoom-in" class="skill-item">
+    <svg class="skill-icon">
+      <use
+        xlink:href="/assets/img/ml-icons.svg#plotly">
+      </use>
+    </svg>
+    <span class="skill-name">Plotly</span>
+  </div>
   
 </div>
-
-      </section>
+    </section>
     
     
-      <section class="card neumorphism-card-big">
-        <h1 class="title">Education & Experience</h1>
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Education & Experience</h1>
 <p class="subtitle">
   For more information, have a look at my
   <a class="highlight-link" href="/assets/cv_alibek.pdf" target="_blank" rel="noreferrer">
@@ -449,11 +566,11 @@
   </ul>
 </div>
 
-      </section>
+    </section>
     
     
-      <section class="card neumorphism-card-big">
-        
+    <section class="card neumorphism-card-big">
+      
   <h1 class="title"><span>Projects</span></h1>
   <div class="projects-wrapper">
     
@@ -986,7 +1103,7 @@
 
 
 
-      </section>
+    </section>
     
     
     <section class="card neumorphism-card-big">
@@ -1098,4 +1215,5 @@
 
 
 </body>
+
 </html>

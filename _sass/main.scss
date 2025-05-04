@@ -386,9 +386,37 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 
-  div {
-    padding: 0.2rem;
-    transition: opacity 0.5s;
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+    position: relative; /* Add this to position the name properly */
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  .skill-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .skill-name {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    bottom: -2rem; /* Increase this value to add more space */
+  }
+
+  .skill-item:hover .skill-name {
+    opacity: 1;
   }
 
   div[skill-type="language"] {
@@ -403,29 +431,8 @@ a {
     color: #fecea8;
   }
 
-  div[skill-weight="1"] {
-    font-size: 0.75rem;
-    line-height: 0.25rem;
-  }
-
-  div[skill-weight="2"] {
-    font-size: 1.25rem;
-    line-height: 0.75rem;
-  }
-
-  div[skill-weight="3"] {
-    font-size: 1.75rem;
-    line-height: 1.25rem;
-  }
-
-  div[skill-weight="4"] {
-    font-size: 2.25rem;
-    line-height: 1.75rem;
-  }
-
-  div[skill-weight="5"] {
-    font-size: 2.75rem;
-    line-height: 2.25rem;
+  div[skill-type="visualization"] {
+    color: #2a9d8f;
   }
 
   input[type="radio"] {
@@ -434,6 +441,79 @@ a {
 
   .filter-button {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #skills {
+    .skill-icon {
+      width: 64px;
+      height: 64px;
+    }
+
+    .filter-button {
+      border-radius: 0.5rem;
+      cursor: pointer;
+      display: unset;
+      margin: 0 0.5rem 1rem;
+      padding: 0.5rem 0.25rem;
+      text-align: center;
+      width: 21%;
+
+      &:hover {
+        letter-spacing: 0.25rem;
+      }
+    }
+
+    input[type="radio"]:checked + .filter-button {
+      color: $primary-color;
+      font-weight: $font-weight-strong;
+      @include neumorphism-button-pressed();
+    }
+
+    #all:checked ~ div[skill-type] {
+      display: flex;
+    }
+
+    #language:checked ~ div[skill-type="language"] {
+      display: flex;
+    }
+
+    #language:checked ~ div[skill-type="framework"],
+    #language:checked ~ div[skill-type="tool"],
+    #language:checked ~ div[skill-type="visualization"] {
+      display: none;
+    }
+
+    #framework:checked ~ div[skill-type="framework"] {
+      display: flex;
+    }
+
+    #framework:checked ~ div[skill-type="language"],
+    #framework:checked ~ div[skill-type="tool"],
+    #framework:checked ~ div[skill-type="visualization"] {
+      display: none;
+    }
+
+    #tool:checked ~ div[skill-type="tool"] {
+      display: flex;
+    }
+
+    #tool:checked ~ div[skill-type="language"],
+    #tool:checked ~ div[skill-type="framework"],
+    #tool:checked ~ div[skill-type="visualization"] {
+      display: none;
+    }
+
+    #visualization:checked ~ div[skill-type="visualization"] {
+      display: flex;
+    }
+
+    #visualization:checked ~ div[skill-type="language"],
+    #visualization:checked ~ div[skill-type="framework"],
+    #visualization:checked ~ div[skill-type="tool"] {
+      display: none;
+    }
   }
 }
 
@@ -547,7 +627,7 @@ a {
     background: $bg-color;
     border-radius: 0.5rem;
     display: inline-block;
-    padding: .6rem;
+    padding: 0.6rem;
   }
 
   .desc {
