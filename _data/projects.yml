@@ -15,20 +15,30 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Your Project Name
-  descr: "Your project description goes here."
-  demo: https://your-demo-link.com/
-  github: https://github.com/yourusername/your-repository
-  tags:
-    - tag: Tag1
-    - tag: Tag2
+# - name: Your Project Name
+#   descr: "Your project description goes here."
+#   demo: https://your-demo-link.com/
+#   github: https://github.com/yourusername/your-repository
+#   tags:
+#     - tag: Tag1
+#     - tag: Tag2
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Web Augmented Reality System
+  descr:
+    "• GPU-based Image Pipeline: Implemented real-time image preprocessing and postprocessing using WebGL
+    shaders to offload computation from the CPU and improve responsiveness.
+    • Local Feature Detector/Descriptor in WebGL: Built custom implementations of local keypoint detectors and
+    descriptors (e.g., FAST, ORB) using fragment shaders for fully GPU-side processing.
+    • WebAssembly Modules: Ported and optimized traditional C++ detector/descriptor algorithms to WebAssembly
+    for high-performance execution within web workers, enabling parallel processing and thread-safe execution.
+    • Modular JavaScript Architecture: Utilized web workers for asynchronous processing and ensured scalability
+    across devices."
+  demo: https://web-ar.studio/
   tags:
+    - tag: WebGL
+    - tag: WebAssembly
+    - tag: C/C++
     - tag: Python
-    - tag: Django
-
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+    - tag: JS
+    - tag: Thread
+    - tag: Cross-Platform

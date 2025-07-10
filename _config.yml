@@ -104,7 +104,7 @@ projects:
     forks: true
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
-    # - repo1-to-be-excluded
+      - internprojectfrontend
     # - repo2-to-be-excluded
 
 # GOOGLE-ANALYTICS
