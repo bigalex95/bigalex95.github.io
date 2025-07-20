@@ -105,7 +105,12 @@ projects:
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
       - internprojectfrontend
-    # - repo2-to-be-excluded
+      - androidMalwareDetectionSystem
+      - appointmentsystem
+      - challenges
+      - fullStackReactDjango
+      - image_generation_with_AI
+      - ImageCleaning
 
 # GOOGLE-ANALYTICS
 # Set the id, if you want to track your website with Google Analytics
