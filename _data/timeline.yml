@@ -17,6 +17,20 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: ERA Tech
+  title-url: http://linkedin.com/company/era-techh
+  date: Jul 2016 - Present
+  subtitle: Founder & AI/ML Consultant
+  tags:
+    - tag: Python
+    - tag: Tensorflow
+    - tag: PyTorch
+    - tag: Pandas
+    - tag: Numpy
+    - tag: Docker
+    - tag: FastAPI
+  timeline-side: right
+
 - title: Web-AR.Studio
   title-url: https://web-ar.studio/
   date: Nov 2021 - Feb 2025
@@ -35,20 +49,6 @@
   date: 2023 - Present
   subtitle: M.Sc. Computer Science
   timeline-side: left
-
-- title: ERA Tech
-  title-url: http://linkedin.com/company/era-techh
-  date: Jul 2016 - Present
-  subtitle: Founder & AI/ML Consultant
-  tags:
-    - tag: Python
-    - tag: Tensorflow
-    - tag: PyTorch
-    - tag: Pandas
-    - tag: Numpy
-    - tag: Docker
-    - tag: FastAPI
-  timeline-side: right
 
 - title: UZAKTA Bilişim ve Tasarim
   title-url: https://www.linkedin.com/company/uzakta-bili%C5%9Fim-ve-tasar%C4%B1m-ltd-%C5%9Fti/
