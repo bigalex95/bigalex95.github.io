@@ -20,14 +20,14 @@
 - title: Web-AR.Studio
   title-url: https://web-ar.studio/
   date: Nov 2021 - Feb 2025
-  subtitle: Computer Vision Developer
+  subtitle: Team Lead - Computer Vision Department
   tags:
     - tag: C/C++
-    - tag: Javascript
-    - tag: WebAssembly
+    - tag: Python
     - tag: OpenCV
+    - tag: WebAssembly
     - tag: WebGL
-    - tag: OpenGL ES
+    - tag: OpenGL
   timeline-side: right
 
 - title: Konya Technical University
@@ -36,10 +36,10 @@
   subtitle: M.Sc. Computer Science
   timeline-side: left
 
-- title: ERA Tech Company
-  title-url: https://www.linkedin.com/company/106579659
-  date: Jul 2018 - Oct 2022
-  subtitle: Machine Learning Engineer
+- title: ERA Tech
+  title-url: http://linkedin.com/company/era-techh
+  date: Jul 2016 - Present
+  subtitle: Founder & AI/ML Consultant
   tags:
     - tag: Python
     - tag: Tensorflow
@@ -50,9 +50,9 @@
     - tag: FastAPI
   timeline-side: right
 
-- title: UZAKTA Bilişim ve Tasarım
+- title: UZAKTA Bilişim ve Tasarim
   title-url: https://www.linkedin.com/company/uzakta-bili%C5%9Fim-ve-tasar%C4%B1m-ltd-%C5%9Fti/
-  date: Feb 2020 - Oct 2021
+  date: Feb 2019 - Oct 2021
   subtitle: Machine Learning Engineer
   tags:
     - tag: Python
@@ -60,6 +60,18 @@
     - tag: OpenCV
     - tag: Tensorflow
     - tag: Nvidia Jetson
+  timeline-side: right
+
+- title: Polonom Robotics
+  title-url: https://www.linkedin.com/company/polonom/
+  date: Mar 2018 - Jan 2019
+  subtitle: ROS Developer
+  tags:
+    - tag: C/C++
+    - tag: Python
+    - tag: ROS
+    - tag: SLAM
+    - tag: FPGA
   timeline-side: right
 
 - title: Yildiz Technical University
