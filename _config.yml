@@ -35,11 +35,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: AI/ML and Computer Vision Engineer with 10+ years of software development experience, specializing in designing and optimizing
-AI/ML models, implementing computer vision algorithms, and deploying scalable, production-ready applications. Proven expertise in
-integrating advanced technologies, improving model performance, and delivering impactful solutions across diverse domains. Skilled
-in full-stack development, API integration, and end-to-end project delivery, with a strong focus on WebAR, Machine Learning, and
-Computer Vision.
+about_me_description: AI/ML and Computer Vision Engineer with 10+ years of software development experience, specializing in designing and optimizing. AI/ML models, implementing computer vision algorithms, and deploying scalable, production-ready applications. Proven expertise in integrating advanced technologies, improving model performance, and delivering impactful solutions across diverse domains. Skilled in full-stack development, API integration, and end-to-end project delivery, with a strong focus on WebAR, Machine Learning, and Computer Vision.
 
 # SKILLS SECTION
 # show_skills_card:
