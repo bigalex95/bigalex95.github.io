@@ -88,29 +88,29 @@ contact_description: If you wish to get in touch, you may use Telegram, Email or
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
 repository: bigalex95/bigalex95.github.io
-projects:
-  # sortby:
-  # > set this to pushed, if you want to sort your github repositories by time.
-  # > set this to stars, if you want to sort your github repositories by stars.
-  sort_by: pinned
-  exclude:
-    # archived:
-    # > setting this to true, will exclude archived repositories
-    # > setting this to false, will also display archived repositories
-    archived: true
-    # forks:
-    # > setting this to true, will exclude forked repositories
-    # > setting this to false, will also display forked repositories
-    forks: true
-    # projects: A list of the repository names you want to exclude from the listing.
-    projects:
-      - internprojectfrontend
-      - androidMalwareDetectionSystem
-      - appointmentsystem
-      - challenges
-      - fullStackReactDjango
-      - image_generation_with_AI
-      - ImageCleaning
+# projects:
+#   # sortby:
+#   # > set this to pushed, if you want to sort your github repositories by time.
+#   # > set this to stars, if you want to sort your github repositories by stars.
+#   sort_by: pinned
+#   exclude:
+#     # archived:
+#     # > setting this to true, will exclude archived repositories
+#     # > setting this to false, will also display archived repositories
+#     archived: true
+#     # forks:
+#     # > setting this to true, will exclude forked repositories
+#     # > setting this to false, will also display forked repositories
+#     forks: true
+#     # projects: A list of the repository names you want to exclude from the listing.
+#     projects:
+#       - internprojectfrontend
+#       - androidMalwareDetectionSystem
+#       - appointmentsystem
+#       - challenges
+#       - fullStackReactDjango
+#       - image_generation_with_AI
+#       - ImageCleaning
 
 # GOOGLE-ANALYTICS
 # Set the id, if you want to track your website with Google Analytics
