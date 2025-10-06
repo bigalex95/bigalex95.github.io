@@ -1,0 +1,28 @@
+name: Get Pinned Repos
+
+on:
+  push:
+    branches:
+      - main  # Or your default branch
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get pinned repos
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_USER: 'bigalex95' # Replace with your GitHub username
+        run: |
+          curl -H "Authorization: bearer $GH_PAT" -X POST -d '{ "query": "query { user(login: \"'$GITHUB_USER'\") { pinnedItems(first: 6, types: REPOSITORY) { nodes { ... on Repository { name description url homepageUrl stargazers { totalCount } forks { totalCount } languages(first: 5, orderBy: {field: SIZE, direction: DESC}) { nodes { name color } } } } } } }" }' https://api.github.com/graphql | jq '.data.user.pinnedItems.nodes' > _data/pinned_repos.json
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: update pinned repositories"
+          file_pattern: "_data/pinned_repos.json"
