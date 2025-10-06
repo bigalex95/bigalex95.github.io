@@ -37,12 +37,12 @@
 {% assign sort_order = 'pushed_at' %}
 {% endif %} -->
 
-<!-- _includes/section-projects.html -->
-{% if site.data.theme.show_projects_card %}
+
+<!-- {% if site.show_projects_card %}
 <div class="card">
-  <h2>{{ site.data.theme.projects_title | default: "Projects" }}</h2>
+  <h2>{{ site.projects_title | default: "Projects" }}</h2>
   
-  {% if site.data.theme.show_projects %}
+  {% if site.show_projects %}
     <div class="projects-grid">
       <!-- Your manually configured projects from _data/projects.yml -->
       {% for project in site.data.projects %}
@@ -59,10 +59,10 @@
         </div>
       {% endfor %}
     </div>
-  {% endif %}
+  {% endif %} -->
 
-  {% if site.data.theme.show_os_projects %}
-    <h3>{{ site.data.theme.os_projects_title | default: "Open Source Projects" }}</h3>
+  {% if site.show_os_projects %}
+    <h3>{{ site.os_projects_title | default: "Open Source Projects" }}</h3>
     <div class="open-source-projects">
       {% assign pinned_repos = site.data.pinned_repos %}
       {% if pinned_repos %}
