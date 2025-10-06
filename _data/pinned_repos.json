@@ -1,0 +1,165 @@
+[
+  {
+    "name": "minininja",
+    "description": "Gesture-controlled fruit slicing game for mini ninjas!",
+    "url": "https://github.com/bigalex95/minininja",
+    "homepageUrl": null,
+    "stargazers": {
+      "totalCount": 0
+    },
+    "forks": {
+      "totalCount": 0
+    },
+    "languages": {
+      "nodes": [
+        {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        {
+          "name": "PLpgSQL",
+          "color": "#336790"
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051"
+        }
+      ]
+    }
+  },
+  {
+    "name": "JobFit-AI",
+    "description": "A smart resume-to-job matcher that helps applicants beat the ATS and land interviews. ",
+    "url": "https://github.com/bigalex95/JobFit-AI",
+    "homepageUrl": null,
+    "stargazers": {
+      "totalCount": 1
+    },
+    "forks": {
+      "totalCount": 0
+    },
+    "languages": {
+      "nodes": [
+        {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        {
+          "name": "Dockerfile",
+          "color": "#384d54"
+        }
+      ]
+    }
+  },
+  {
+    "name": "AIsupportedLogoGenerator",
+    "description": "An AI-powered web app that helps users generate professional-looking logos based on input keywords and style preferences. Uses a pretrained style-transfer model with a lightweight frontend for rapid iteration and preview.",
+    "url": "https://github.com/bigalex95/AIsupportedLogoGenerator",
+    "homepageUrl": "",
+    "stargazers": {
+      "totalCount": 2
+    },
+    "forks": {
+      "totalCount": 0
+    },
+    "languages": {
+      "nodes": [
+        {
+          "name": "Jupyter Notebook",
+          "color": "#DA5B0B"
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "AMDwithML",
+    "description": "Machine learning-based Android malware detector using Natural Language Processing techniques. This project extracts and processes app permissions and API call sequences as features, then applies ML models (e.g., SVM, Random Forest, etc.) for classification. Focuses on explainability, lightweight detection, and robustness across app categories.",
+    "url": "https://github.com/bigalex95/AMDwithML",
+    "homepageUrl": "",
+    "stargazers": {
+      "totalCount": 2
+    },
+    "forks": {
+      "totalCount": 0
+    },
+    "languages": {
+      "nodes": [
+        {
+          "name": "C",
+          "color": "#555555"
+        },
+        {
+          "name": "C++",
+          "color": "#f34b7d"
+        },
+        {
+          "name": "Shell",
+          "color": "#89e051"
+        },
+        {
+          "name": "MATLAB",
+          "color": "#e16737"
+        },
+        {
+          "name": "Python",
+          "color": "#3572A5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dailio",
+    "description": "Dailio is a personal productivity and self-improvement app designed to help users organize their day, build better habits, and track progress—one day at a time. It combines essential daily tools like alarms, timers, to-do lists, notes, and daily challenges into a simple, motivating interface that keeps you focused and accountable.",
+    "url": "https://github.com/bigalex95/Dailio",
+    "homepageUrl": null,
+    "stargazers": {
+      "totalCount": 1
+    },
+    "forks": {
+      "totalCount": 0
+    },
+    "languages": {
+      "nodes": [
+        {
+          "name": "Dart",
+          "color": "#00B4AB"
+        },
+        {
+          "name": "C++",
+          "color": "#f34b7d"
+        },
+        {
+          "name": "CMake",
+          "color": "#DA3434"
+        },
+        {
+          "name": "Kotlin",
+          "color": "#A97BFF"
+        },
+        {
+          "name": "Swift",
+          "color": "#F05138"
+        }
+      ]
+    }
+  },
+  {
+    "name": "PBLhub",
+    "description": "Project-Based Learning hub",
+    "url": "https://github.com/bigalex95/PBLhub",
+    "homepageUrl": null,
+    "stargazers": {
+      "totalCount": 0
+    },
+    "forks": {
+      "totalCount": 0
+    },
+    "languages": {
+      "nodes": []
+    }
+  }
+]
