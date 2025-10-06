@@ -35,7 +35,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: Machine Learning and Computer Vision Engineer with 10+ years of software development experience, specializing in designing and optimizing. AI/ML models, implementing computer vision algorithms, and deploying scalable, production-ready applications. Proven expertise in integrating advanced technologies, improving model performance, and delivering impactful solutions across diverse domains. Skilled in full-stack development, API integration, and end-to-end project delivery, with a strong focus on WebAR, Machine Learning, and Computer Vision.
+about_me_description: Senior Computer Vision and Machine Learning Engineer with over 7 years of experience leading, designing, and deploying end-to-end AI solutions. Proven expertise in optimizing and deploying deep learning models for edge and cloud environments, reducing latency by up to 60% using TensorRT/TFLite. Adept at building scalable data pipelines and leading cross-functional teams to deliver innovative products in WebAR, AI-powered automation, and data analysis. Seeking to leverage technical leadership and hands-on expertise in Python, TensorFlow, PyTorch, and C++.
 
 # SKILLS SECTION
 # show_skills_card:
@@ -92,7 +92,7 @@ projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
   # > set this to stars, if you want to sort your github repositories by stars.
-  sort_by: stars
+  sort_by: pinned
   exclude:
     # archived:
     # > setting this to true, will exclude archived repositories
