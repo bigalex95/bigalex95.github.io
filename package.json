@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "gulp",
     "prod": "gulp build",
-    "build": "bundle exec jekyll build --destination docs"
+    "build": "bundle exec jekyll build"
   },
   "author": "Long Do",
   "license": "MIT",

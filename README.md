@@ -182,14 +182,14 @@ Edit `assets/particles.json` to customize the landing page backgorund animation.
 To build the site for production and deployment to GitHub Pages, use the following command:
 
 ```sh
-bundle exec jekyll build --destination docs
+bundle exec jekyll build
 ```
 
 This will:
 
 1. Build your Jekyll site with all the necessary assets
-2. Output the built site to the `docs` directory
-3. Make it ready for GitHub Pages deployment (when using the `docs/` folder option in repository settings)
+2. Output the built site to the git-ignored `_site` directory
+3. Let you preview the production output locally (GitHub Pages builds and publishes the site from the repository root on push)
 
 ### Alternative Build Methods
 
@@ -197,7 +197,7 @@ You can also add this command to your `package.json` scripts for easier access:
 
 ```json
 "scripts": {
-  "build": "bundle exec jekyll build --destination docs"
+  "build": "bundle exec jekyll build"
 }
 ```
 
