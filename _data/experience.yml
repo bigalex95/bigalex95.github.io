@@ -1,0 +1,31 @@
+- title: Senior Computer Vision Engineer
+  org: CDMVision
+  period: Mar 2026 – Present
+  meta: Full-time
+  summary: Designing and optimizing real-time computer vision systems for AR-based industrial inspection and dimensional validation.
+- title: Founder & Computer Vision Engineer
+  org: Bekai Vision
+  period: Jul 2018 – Present
+  meta: Self-employed, remote
+  summary: Independent CV & robotics studio for freelance projects between full-time roles.
+  points:
+    - Optimized vision models for cloud and edge via quantization and TensorRT, achieving a 60% reduction in system latency.
+    - Automated scalable ETL and data-collection pipelines in Python, cutting dataset preparation from days to hours.
+    - Delivered technical consulting and backend architecture for AI-driven applications for global clients.
+- org: Web-AR.Studio
+  period: Nov 2021 – Feb 2025
+  meta: Remote
+  roles:
+    - title: Team Lead – Computer Vision Department
+      summary: Led a cross-functional engineering team delivering production-ready AR experiences.
+    - title: Computer Vision Engineer
+      summary: Engineered a real-time GPU-accelerated image pipeline in C++ and WebAssembly for high-precision positioning and mapping in web environments.
+- title: Machine Learning Engineer
+  org: UZAKTA Bilişim ve Tasarım Ltd. Şti.
+  period: Feb 2019 – Oct 2021
+  meta: Istanbul
+  summary: Built a Flask-based management interface and high-speed socket-based communication between NVIDIA Jetson edge devices and client systems.
+- title: Researching Trainee, ROBOTIC Lab
+  org: Yıldız Technical University
+  period: Jun 2017 – Sep 2017
+  summary: Worked with FPGA platforms to design and test custom digital logic circuits.

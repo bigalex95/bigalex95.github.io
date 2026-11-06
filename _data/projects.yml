@@ -1,44 +1,16 @@
-# > name: Name of your project
-# > descr: Description of your project
-# > demo: Link to your project
-# > github: Link to your GitHub repository
-# > tags: List of technologies you used in your projects
-#
-# Example of a project
-# - name: project X
-#   descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-#   demo: https://example.com/
-#   github: https://github.com/username/repository
-#   tags:
-#     - tag: MongoDB
-#     - tag: Express
-#     - tag: AngularJS
-#     - tag: Node
-
-# - name: Your Project Name
-#   descr: "Your project description goes here."
-#   demo: https://your-demo-link.com/
-#   github: https://github.com/yourusername/your-repository
-#   tags:
-#     - tag: Tag1
-#     - tag: Tag2
-
-- name: Web Augmented Reality System
-  descr:
-    "• GPU-based Image Pipeline: Implemented real-time image preprocessing and postprocessing using WebGL
-    shaders to offload computation from the CPU and improve responsiveness.
-    • Local Feature Detector/Descriptor in WebGL: Built custom implementations of local keypoint detectors and
-    descriptors (e.g., FAST, ORB) using fragment shaders for fully GPU-side processing.
-    • WebAssembly Modules: Ported and optimized traditional C++ detector/descriptor algorithms to WebAssembly
-    for high-performance execution within web workers, enabling parallel processing and thread-safe execution.
-    • Modular JavaScript Architecture: Utilized web workers for asynchronous processing and ensured scalability
-    across devices."
-  demo: https://web-ar.studio/
-  tags:
-    - tag: WebGL
-    - tag: WebAssembly
-    - tag: C/C++
-    - tag: Python
-    - tag: JS
-    - tag: Thread
-    - tag: Cross-Platform
+- name: ai-interview-judge
+  tags: [Python, C++]
+  description: High-performance automated interview evaluation system. Hybrid architecture using C++ (OpenCV) for real-time slide detection and Python (FastAPI/LLM) for multimodal reasoning and grading.
+- name: VIO-SLAM-Assignment
+  tags: [Python]
+  description: Visual-inertial odometry implementation and evaluation using the Basalt framework on EuRoC MAV datasets.
+- name: NanoRec-CPP
+  tags: [C++]
+  status: in development
+  description: A lightweight, cross-platform screen recorder with local AI summarization. Built from scratch using C++20, OpenGL (ImGui), FFmpeg piping, and Whisper.cpp. Optimized for low-end hardware.
+- name: ImageCleaning
+  tags: [Jupyter Notebook]
+  description: Combined Pix2Pix conditional GAN and TecoGAN super-resolution networks.
+- name: Smart-Counter
+  tags: [C++, Python]
+  description: People counting system for edge devices, using C++, OpenCV, ONNX Runtime and YOLOv8, with a real-time analytics dashboard.

@@ -1,0 +1,13 @@
+<section id="skills" class="section" aria-labelledby="skills-title">
+  <div class="container">
+    <h2 id="skills-title" class="section-title">Skills</h2>
+    <dl class="skills">
+      {%- for g in site.data.skills %}
+      <div class="skill-group">
+        <dt>{{ g.group }}</dt>
+        <dd>{{ g.items | join: ", " }}</dd>
+      </div>
+      {%- endfor %}
+    </dl>
+  </div>
+</section>
