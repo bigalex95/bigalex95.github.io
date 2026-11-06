@@ -1,0 +1,18 @@
+<section id="projects" class="section" aria-labelledby="projects-title">
+  <div class="container">
+    <h2 id="projects-title" class="section-title">Projects</h2>
+    <ul class="project-grid">
+      {%- for p in site.data.projects %}
+      <li class="project-card">
+        <span class="det-label" aria-hidden="true">project 0.99</span>
+        <div class="project-top">
+          <h3 class="project-name"><a href="https://github.com/bigalex95/{{ p.name }}">{{ p.name }}</a></h3>
+          {%- if p.status %}<span class="mono status">{{ p.status }}</span>{% endif %}
+        </div>
+        <p class="project-desc">{{ p.description }}</p>
+        <p class="mono project-tags">{{ p.tags | join: " · " }}</p>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
