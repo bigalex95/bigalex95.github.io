@@ -61,9 +61,17 @@ a:hover { color: var(--text); }
   min-height: var(--header-h); flex-wrap: wrap;
 }
 .brand {
+  display: inline-flex; align-items: center; gap: 0.75rem;
   font-family: var(--font-head); font-weight: 700; font-size: 1.05rem;
   color: var(--text); text-decoration: none;
 }
+.brand-logo { display: block; width: 36px; height: 36px; border-radius: 4px; }
+.brand-name { position: relative; padding: 0.15rem 0.55rem; }
+.brand-name::before, .brand-name::after {
+  content: ""; position: absolute; width: 8px; height: 8px; border: 0 solid var(--accent);
+}
+.brand-name::before { top: 0; left: 0; border-top-width: 2px; border-left-width: 2px; }
+.brand-name::after { bottom: 0; right: 0; border-bottom-width: 2px; border-right-width: 2px; }
 .site-nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
 .site-nav a { color: var(--muted); text-decoration: none; font-size: 0.92rem; font-weight: 500; padding: 0.25rem 0; }
 .site-nav a:hover { color: var(--accent); }
