@@ -108,7 +108,7 @@ a:hover { color: var(--text); }
 .det-label {
   position: absolute; left: 0; top: 0; transform: translateY(-100%);
   background: var(--accent); color: var(--bg);
-  font-family: var(--font-body); font-size: 0.7rem; line-height: 1;
+  font-size: 0.7rem; line-height: 1;
   font-family: var(--font-mono); font-weight: 400; letter-spacing: 0;
   padding: 0.25rem 0.45rem; white-space: nowrap;
 }
