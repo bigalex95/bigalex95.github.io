@@ -1,0 +1,16 @@
+- name: ai-interview-judge
+  tags: [Python, C++]
+  description: High-performance automated interview evaluation system. Hybrid architecture using C++ (OpenCV) for real-time slide detection and Python (FastAPI/LLM) for multimodal reasoning and grading.
+- name: VIO-SLAM-Assignment
+  tags: [Python]
+  description: Visual-inertial odometry implementation and evaluation using the Basalt framework on EuRoC MAV datasets.
+- name: NanoRec-CPP
+  tags: [C++]
+  status: in development
+  description: A lightweight, cross-platform screen recorder with local AI summarization. Built from scratch using C++20, OpenGL (ImGui), FFmpeg piping, and Whisper.cpp. Optimized for low-end hardware.
+- name: ImageCleaning
+  tags: [Jupyter Notebook]
+  description: Combined Pix2Pix conditional GAN and TecoGAN super-resolution networks.
+- name: Smart-Counter
+  tags: [C++, Python]
+  description: People counting system for edge devices, using C++, OpenCV, ONNX Runtime and YOLOv8, with a real-time analytics dashboard.

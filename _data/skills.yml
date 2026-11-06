@@ -1,0 +1,10 @@
+- group: Perception
+  items: [object detection, segmentation, tracking, pose estimation, visual localization]
+- group: 3D vision
+  items: [depth, SLAM / VIO, feature matching]
+- group: Deployment
+  items: [TensorRT, ONNX, quantization, NVIDIA Jetson, real-time GPU pipelines]
+- group: AR & web
+  items: [C++ → WebAssembly, WebGL / OpenGL ES]
+- group: Languages & tools
+  items: [Python, C++, JavaScript, PyTorch, TensorFlow, OpenCV, ROS, Docker, FastAPI, Git]
