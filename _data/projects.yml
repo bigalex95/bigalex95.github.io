@@ -1,16 +1,26 @@
 - name: ai-interview-judge
-  tags: [Python, C++]
-  description: High-performance automated interview evaluation system. Hybrid architecture using C++ (OpenCV) for real-time slide detection and Python (FastAPI/LLM) for multimodal reasoning and grading.
-- name: VIO-SLAM-Assignment
-  tags: [Python]
-  description: Visual-inertial odometry implementation and evaluation using the Basalt framework on EuRoC MAV datasets.
-- name: NanoRec-CPP
-  tags: [C++]
-  status: in development
-  description: A lightweight, cross-platform screen recorder with local AI summarization. Built from scratch using C++20, OpenGL (ImGui), FFmpeg piping, and Whisper.cpp. Optimized for low-end hardware.
-- name: ImageCleaning
-  tags: [Jupyter Notebook]
-  description: Combined Pix2Pix conditional GAN and TecoGAN super-resolution networks.
+  tags: [C++, Python, OpenCV, FastAPI]
+  description: C++/OpenCV slide-change detector (pybind11) plus a FastAPI pipeline that transcribes interview recordings (faster-whisper), OCRs slides (PaddleOCR) and grades answers with Gemini. Slide detection measured at 347 fps @720p on a Ryzen 7 5800H.
 - name: Smart-Counter
-  tags: [C++, Python]
-  description: People counting system for edge devices, using C++, OpenCV, ONNX Runtime and YOLOv8, with a real-time analytics dashboard.
+  tags: [C++17, ONNX Runtime, OpenCV, Docker]
+  description: C++17 people counter. YOLOv8 detection via ONNX Runtime, centroid tracking, IN/OUT line-crossing counts, SQLite logging and a Streamlit dashboard. Unit tests and CI.
+- name: uav-depth-densification
+  tags: [C++, Python, COLMAP]
+  description: Dense metric depth for UAV imagery. COLMAP sparse points plus Depth Anything V2 relative depth, scaled by a C++ polynomial least-squares fit. Unit tests and CI.
+- name: VIO-SLAM-Assignment
+  tags: [Docker, Basalt, evo]
+  description: Docker and evo harness evaluating Basalt VIO on EuRoC MAV datasets. ATE RMSE 0.069 m on MH_01 and 0.054 m on V1_03.
+- name: pix2pix_TecoGAN
+  tags: [Python, TensorFlow, PyTorch]
+  description: Real-time webcam pipeline. pix2pix denoising plus optional TecoGAN video super-resolution, streamed to a virtual camera.
+- name: minininja
+  tags: [Python, MediaPipe, OpenCV]
+  description: MiniNinja, a webcam hand-gesture fruit-slicing game. MediaPipe Hands tracks the index finger and slashes are detected from its velocity. Python prototype.
+- name: cuda-vision-lab
+  tags: [C++, CUDA]
+  status: in development
+  description: Work-in-progress CUDA lab for SLAM front-end kernels. The first stage (array ops) measured a 12.7-21.2x GPU speedup over CPU on an RTX 3060 Laptop.
+- name: NanoRec-CPP
+  tags: [C++20, ImGui, FFmpeg]
+  status: in development
+  description: C++20 screen recorder with a Dear ImGui UI and FFmpeg pipe encoding. Audio and transcription are planned.
