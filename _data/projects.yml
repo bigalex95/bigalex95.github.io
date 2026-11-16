@@ -1,13 +1,13 @@
 - name: ai-interview-judge
   tags: [C++, Python, OpenCV, FastAPI]
-  description: C++/OpenCV slide-change detector (pybind11) plus a FastAPI pipeline that transcribes interview recordings (faster-whisper), OCRs slides (PaddleOCR) and grades answers with Gemini. Slide detection measured at 347 fps @720p on a Ryzen 7 5800H.
+  description: C++/OpenCV slide-change detector (pybind11) plus a FastAPI pipeline that transcribes interview recordings (faster-whisper), OCRs slides (PaddleOCR) and grades answers with Gemini. Slide detection measured at ~500 fps @720p on a Ryzen 7 5800H (median of 3 runs).
 - name: Smart-Counter
   tags: [C++17, ONNX Runtime, OpenCV, Docker]
   description: C++17 people counter. YOLOv8 detection via ONNX Runtime, centroid tracking, IN/OUT line-crossing counts, SQLite logging and a Streamlit dashboard. Unit tests and CI.
 - name: uav-depth-densification
   tags: [C++, Python, COLMAP]
-  description: Dense metric depth for UAV imagery. COLMAP sparse points plus Depth Anything V2 relative depth, scaled by a C++ polynomial least-squares fit. Unit tests and CI.
-- name: VIO-SLAM-Assignment
+  description: Dense metric depth for UAV imagery. COLMAP sparse points plus Depth Anything V2 relative inverse depth, mapped to depth by a C++ polynomial least-squares fit. Unit tests and CI.
+- name: basalt-vio-euroc-eval
   tags: [Docker, Basalt, evo]
   description: Docker and evo harness evaluating Basalt VIO on EuRoC MAV datasets. ATE RMSE 0.069 m on MH_01 and 0.054 m on V1_03.
 - name: pix2pix_TecoGAN
