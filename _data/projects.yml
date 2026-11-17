@@ -1,3 +1,7 @@
+- name: RescueSwarm
+  url: https://github.com/bekaivision/rescueswarm
+  tags: [ROS 2, Nav2, PX4, Gazebo, SLAM, YOLO11]
+  description: Simulated swarm of ground robots and PX4 drones that maps a collapsed building and finds people. ROS 2 Jazzy, Gazebo, Nav2, per-robot SLAM (mrg_slam), YOLO11, radio-link model. Mixed swarm reaches 90% map coverage in 60 s vs 310 s with ground robots only; 19/19 reachable people confirmed with 0 decoys; SLAM ATE 0.26 m. 299 unit tests, CI.
 - name: ai-interview-judge
   tags: [C++, Python, OpenCV, FastAPI]
   description: C++/OpenCV slide-change detector (pybind11) plus a FastAPI pipeline that transcribes interview recordings (faster-whisper), OCRs slides (PaddleOCR) and grades answers with Gemini. Slide detection measured at ~500 fps @720p on a Ryzen 7 5800H (median of 3 runs).

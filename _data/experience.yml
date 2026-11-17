@@ -7,8 +7,9 @@
   org: Bekai Vision
   period: Jul 2018 – Present
   meta: Self-employed, remote
-  summary: Independent CV & robotics studio for freelance projects between full-time roles.
+  summary: "Independent CV & robotics studio: freelance projects and open-source R&D alongside full-time roles."
   points:
+    - Built and open-sourced RescueSwarm, a ROS 2 / PX4 multi-robot search-and-rescue research stack (simulation) with 299 unit tests and CI.
     - Optimized vision models for cloud and edge via quantization and TensorRT, achieving a 60% reduction in system latency.
     - Automated scalable ETL and data-collection pipelines in Python, cutting dataset preparation from days to hours.
     - Delivered technical consulting and backend architecture for AI-driven applications for global clients.

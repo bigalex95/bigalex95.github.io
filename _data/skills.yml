@@ -4,6 +4,8 @@
   items: [depth, SLAM / VIO, feature matching]
 - group: Deployment
   items: [TensorRT, ONNX, quantization, NVIDIA Jetson, real-time GPU pipelines]
+- group: Robotics
+  items: [ROS 2, Nav2, PX4 SITL, Gazebo, multi-robot exploration]
 - group: AR & web
   items: [C++ → WebAssembly, WebGL / OpenGL ES]
 - group: Languages & tools

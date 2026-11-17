@@ -6,7 +6,7 @@
       <li class="project-card">
         <span class="det-label" aria-hidden="true">project 0.99</span>
         <div class="project-top">
-          <h3 class="project-name"><a href="https://github.com/bigalex95/{{ p.name }}">{{ p.name }}</a></h3>
+          <h3 class="project-name"><a href="{% if p.url %}{{ p.url }}{% else %}https://github.com/bigalex95/{{ p.name }}{% endif %}">{{ p.name }}</a></h3>
           {%- if p.status %}<span class="mono status">{{ p.status }}</span>{% endif %}
         </div>
         <p class="project-desc">{{ p.description }}</p>
